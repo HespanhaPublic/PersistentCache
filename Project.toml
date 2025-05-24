@@ -1,7 +1,7 @@
 name = "PersistentCache"
 uuid = "272a2dff-45f1-435c-8a77-925e0295a038"
 authors = ["Joao Hespanha"]
-version = "1.0.0"
+version = "1.0.1"
 
 [deps]
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
