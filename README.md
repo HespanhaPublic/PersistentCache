@@ -179,8 +179,7 @@ Note that now the result of `+(x,y)` was not cached and therefore the actual res
 Note that `@punref` is not needed in calls to functions that specify input types. In that case
 `PersistentCache` "references" are automatically converted to the types required by the function.
 
-
-# Limitations:
+# Limitations
 
 1. First and foremost: No check is made regarding whether or not the code of the functions cached
    have changed since the results were originally stored. 

@@ -1,3 +1,6 @@
+# This test would generally be run from inside the PersistentCache folder with
+#    julia --project=. test/test_PersistentCache.jl
+
 using Revise
 
 using PersistentCache
@@ -5,6 +8,9 @@ using MacroTools
 using Glob
 
 using Test
+
+# make sure folder test/data exists
+mkpath("test/data")
 
 prefix = "test/data/tmp_"
 
